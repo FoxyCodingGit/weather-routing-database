@@ -1,13 +1,7 @@
-CREATE TABLE [dbo].[Route]
-(
-[RouteId] [int] NOT NULL,
-[Name] [varchar] (50) NOT NULL,
-[ModeOfTransportId] [int] NOT NULL,
-[StartLatLngCoordId] [int] NOT NULL,
-[EndLatLngCoordId] [int] NOT NULL
-)
+﻿-- <Migration ID="a5fef015-aca3-4509-bd8f-672db05bae0a" />
 GO
-ALTER TABLE [dbo].[Route] ADD CONSTRAINT [PK_Route] PRIMARY KEY CLUSTERED  ([RouteId])
+
+PRINT N'Adding foreign keys to [dbo].[Route]'
 GO
 ALTER TABLE [dbo].[Route] ADD CONSTRAINT [FK_Route_LatLngCoord] FOREIGN KEY ([StartLatLngCoordId]) REFERENCES [dbo].[LatLngCoord] ([LatLngCoordId])
 GO

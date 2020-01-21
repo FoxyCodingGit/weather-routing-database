@@ -182,4 +182,7 @@
     <None Include="Schema-Model\dbo\Tables\Route.sql" />
     <None Include="Schema-Model\dbo\Tables\User.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\002_20200121-1312_AdamF.sql" />
+  </ItemGroup>
 </Project>
