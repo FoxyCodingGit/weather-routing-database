@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WeatherRoutingDatabase", "WeatherRoutingDatabase\WeatherRoutingDatabase.sqlproj", "{C813C5F6-D666-4755-966B-6F17FCA1FBA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C813C5F6-D666-4755-966B-6F17FCA1FBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C813C5F6-D666-4755-966B-6F17FCA1FBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C813C5F6-D666-4755-966B-6F17FCA1FBA3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C813C5F6-D666-4755-966B-6F17FCA1FBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C813C5F6-D666-4755-966B-6F17FCA1FBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C813C5F6-D666-4755-966B-6F17FCA1FBA3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38299686-43E9-43C3-BDA6-327014DC9846}
+	EndGlobalSection
+EndGlobal
