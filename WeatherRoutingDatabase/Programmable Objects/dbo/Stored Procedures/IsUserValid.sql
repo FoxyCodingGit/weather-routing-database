@@ -16,7 +16,7 @@ AS
 BEGIN
 	SET NOCOUNT ON;
 
-	SELECT 1
+	SELECT *
 	FROM [User]
 	WHERE UserId = @Username AND [Password] = @Password
 END

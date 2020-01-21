@@ -191,4 +191,8 @@
   <ItemGroup>
     <None Include="Programmable Objects\dbo\Stored Procedures\IsUserValid.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\003_20200121-1617_AdamF.sql" />
+    <None Include="Schema-Model\dbo\Tables\UserRoute.sql" />
+  </ItemGroup>
 </Project>
