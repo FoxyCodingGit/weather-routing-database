@@ -198,4 +198,7 @@
     <None Include="Schema-Model\dbo\Tables\User.sql" />
     <None Include="Schema-Model\dbo\Tables\UserRoute.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\dbo\Stored Procedures\CreateUserRoute.sql" />
+  </ItemGroup>
 </Project>
