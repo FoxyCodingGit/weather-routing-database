@@ -42,7 +42,7 @@ BEGIN
 	SET @StartCoordId = SCOPE_IDENTITY();
 	
 	INSERT INTO LatLngCoord
-	VALUES (@StartLat, @StartLng);
+	VALUES (@EndLat, @EndLng);
 
 	SET @EndCoordId = SCOPE_IDENTITY();
 
@@ -56,5 +56,9 @@ BEGIN
 
 	INSERT INTO UserRoute
 	VALUES (@Username, @RouteId);
+
+	SELECT *
+	FROM [Route]
+	WHERE RouteId = @RouteId;
 END
 GO
