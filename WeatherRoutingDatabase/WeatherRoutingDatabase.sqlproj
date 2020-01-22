@@ -35,6 +35,7 @@
     <EvaluateExecutionOrderOnImport>True</EvaluateExecutionOrderOnImport>
     <TargetDatabaseSet>True</TargetDatabaseSet>
     <DeployChangesInitialImportDone>True</DeployChangesInitialImportDone>
+    <DeployChangesExecutionOrder>306d5bf5-ffbf-5e99-8f01-ac28412b6aa3|Programmable Objects\dbo\Functions\IsRouteAssignedToUser.sql;e1a9625a-c9e9-5a3a-851a-c6d2fde8fe1f|Programmable Objects\dbo\Stored Procedures\DeleteRoute.sql</DeployChangesExecutionOrder>
   </PropertyGroup>
   <!-- SQL CHANGE AUTOMATION OFFLINE SCHEMA MODEL OPTIONS -->
   <PropertyGroup>
@@ -171,6 +172,7 @@
     <Folder Include="Programmable Objects\" />
     <Folder Include="Programmable Objects\dbo\" />
     <Folder Include="Programmable Objects\dbo\Stored Procedures\" />
+    <Folder Include="Programmable Objects\dbo\Functions\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Pre-Deployment\01_Create_Database.sql" />
@@ -197,5 +199,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Programmable Objects\dbo\Stored Procedures\GetUserRoutes.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\dbo\Functions\IsRouteAssignedToUser.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\DeleteRoute.sql" />
   </ItemGroup>
 </Project>
