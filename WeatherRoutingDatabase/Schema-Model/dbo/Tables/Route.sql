@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[Route]
 (
-[RouteId] [int] NOT NULL,
+[RouteId] [int] NOT NULL IDENTITY(1, 1),
 [Name] [varchar] (50) NOT NULL,
 [ModeOfTransportId] [int] NOT NULL,
 [StartLatLngCoordId] [int] NOT NULL,
