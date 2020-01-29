@@ -201,4 +201,7 @@
   <ItemGroup>
     <None Include="Programmable Objects\dbo\Stored Procedures\CreateUserRoute.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\dbo\Stored Procedures\GetReadableUserRoutes.sql" />
+  </ItemGroup>
 </Project>
