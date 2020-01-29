@@ -17,7 +17,7 @@ AS
 BEGIN
 	SET NOCOUNT ON;
 
-	SELECT [Route].RouteId, [Route].[Name] as RouteName, ModeOfTransport.[Name] as ModeOfTransportName, startLatLng.latitude as StartLat, startLatLng.longitude as StartLng,
+	SELECT [Route].RouteId as ReadableRouteId, [Route].[Name] as RouteName, ModeOfTransport.[Name] as ModeOfTransportName, startLatLng.latitude as StartLat, startLatLng.longitude as StartLng,
 		endLatLng.latitude as EndLat, endLatLng.longitude as EndLng
 	FROM [User]
 		JOIN UserRoute ON [User].UserId = UserRoute.UserId
