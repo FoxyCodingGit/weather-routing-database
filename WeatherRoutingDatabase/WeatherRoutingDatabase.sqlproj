@@ -191,17 +191,21 @@
     <None Include="Programmable Objects\dbo\Stored Procedures\DeleteRoute.sql" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Migrations\001_20200122-1147_AdamF.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\CreateUserRoute.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\dbo\Stored Procedures\GetReadableUserRoutes.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programmable Objects\dbo\Stored Procedures\CreateUser.sql" />
+    <None Include="Programmable Objects\dbo\Stored Procedures\GetUserSalt.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Migrations\001_20200426-1920_AdamF.sql" />
     <None Include="Schema-Model\dbo\Tables\LatLngCoord.sql" />
     <None Include="Schema-Model\dbo\Tables\ModeOfTransport.sql" />
     <None Include="Schema-Model\dbo\Tables\Route.sql" />
     <None Include="Schema-Model\dbo\Tables\User.sql" />
     <None Include="Schema-Model\dbo\Tables\UserRoute.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Programmable Objects\dbo\Stored Procedures\CreateUserRoute.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Programmable Objects\dbo\Stored Procedures\GetReadableUserRoutes.sql" />
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿-- <Migration ID="3a76332d-9b71-4427-94b9-ee0322066c2c" />
+﻿-- <Migration ID="c2895d01-bb94-4b82-96a0-56964f86b08e" />
 GO
 
 PRINT N'Creating [dbo].[LatLngCoord]'
@@ -54,7 +54,8 @@ GO
 CREATE TABLE [dbo].[User]
 (
 [UserId] [varchar] (50) NOT NULL,
-[Password] [varchar] (50) NOT NULL
+[Password] [varchar] (50) NOT NULL,
+[Salt] [varchar] (50) NOT NULL
 )
 GO
 PRINT N'Creating primary key [PK_USer] on [dbo].[User]'
