@@ -4,6 +4,9 @@ This is a "SQL Change Automation" project generated on the SQL-Server Database I
 The script includes the creaiton of database tables, relationships, stored procedures and funcitons. The data is not saved.
 
 ## Design
+
+![Database Design Image](DatabaseDesign.png)
+
 There are five tables that I generated to hold all the data I wanted in a correct manner.
 I have designed the database to follow Third Normalised Form. This is achieved by having all values being atomic and also having no many to many relationships present. This can be seen between user and routes; a user can have many routes whilst a route could be used by many people (leaving open the idea of people being able to share routes). To avoid a many to many relationships here I used a joiner table.
 The double key connection shown below shows the relationship between the route and LatLngCoord table happening twice due to the fact that two coordinates are saved in the route.
