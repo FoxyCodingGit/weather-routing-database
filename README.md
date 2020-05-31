@@ -13,7 +13,7 @@ Stored procedures are programmed in T-SQL and allow access and manipulation of d
 I have created a function to reduce the repeating of code.
 
 ## Database Password Hashing and Salting
-Database passwords are hashed and have salts applied to them, the salt stops the birthday attack to happen. If a hacker was to access the database, they do not have access to anyones password. Another step would be reqiured to know this. This is vital for database security.
+Database passwords are hashed and have salts applied to them, the salt stops birthday attacks from being effective, further increasing the security of the database. If a hacker was to access the database, they do not have access to anyones password. Another step would be reqiured to know this. This is vital for database security.
 The salt and hash are both saved as both are needed on the process of comparison of user entered details on the website.
 
 ## Using SQL Change Automation
